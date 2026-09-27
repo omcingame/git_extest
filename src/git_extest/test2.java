@@ -2,6 +2,8 @@ package git_extest;
 
 public class test2 {
 	public static void main(String [] args) {
-		new test1().say();
+		test1 t = new test1();
+		t.say();
+		
 	}
 }
